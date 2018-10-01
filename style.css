@@ -1,0 +1,66 @@
+body{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    color: white;
+}
+.heading-quizapp{
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px black;
+    margin-bottom: 2em;
+}
+.well{
+    background-color: #294775;
+    border-color: #294775;
+    box-shadow: 2px 2px 1em black;
+}
+.Question{
+    font-family: sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.radio{
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.btn{
+    float: right;
+    margin: 1em;
+    box-shadow: 1px 1px 1px black;
+    background-color: #47a8fc;
+    font-size: 1.2em;
+}
+.btn:hover{
+    background-color: #3b88cb;
+}
+.btn:focus{
+    background-color: #3b88cb;
+    box-shadow: none;
+}
+.btn:active{
+    background-color: #3b88cb;
+    box-shadow: none;
+}
+.alert-info{
+    background-color: #4eadff;
+    border-color: #4eadff;
+    color: #3a1717;
+    font-size: 1.1em;
+}
+.popup-alert{
+    visibility: hidden;
+}
+.startingNote{
+    font-size: 1.2em;
+}
+.start-button{
+    float: none;
+    margin: 1em auto;
+    display: block;
+    text-shadow: 2px 2px 1px black;
+}
+.result,.percentage{
+    font-size: 1.4em;
+    text-align: center;    
+}

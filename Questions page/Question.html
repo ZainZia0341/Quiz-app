@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./../bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="icon" href="./../images/tab-icon.png">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading-quizapp">Quiz App</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well">
+                    <p class="Question">Q#1 Who is making the Web standards?</p>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" value="The World Wide Web Consortium" name="Answeres">The World Wide Web Consortium</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" value="Google" name="Answeres">Google</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" value="Microsoft" name="Answeres">Microsoft</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" value="Mozilla" name="Answeres">Mozilla</label>
+                </div>
+                <div id="next-button">
+                    <button class="btn btn-primary" type="button" onclick="question1()"> Next </button>
+                </div>
+            </div>
+        </div>
+        <div id="popup-alert" class="alert alert-info popup-alert">
+            <a href="javaScript:void(0)" id="close-alert" class="close" data-dismiss="alert">&times;</a>
+            <strong>Info!</strong> please select any one answere to proceed further.
+        </div>
+    </div>
+    <script src="./../app.js"></script>
+</body>
+</html>

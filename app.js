@@ -169,7 +169,6 @@ function question1(){
                 location.href = "./Result.html"
                 localStorage.getItem("score");
             }
-            
         }
     }
     if(checkingSelection === false){
